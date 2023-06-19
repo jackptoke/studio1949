@@ -1,0 +1,14 @@
+site:
+  title: "1949 Studio"
+
+server:
+  files:
+    dev:
+      contentRoot: "build/processedResources/js/main/public"
+      script: "build/developmentExecutable/studio1949.js"
+      api: "build/libs/studio1949.jar"
+    prod:
+      script: "build/distributions/studio1949.js"
+      siteRoot: ".kobweb/site"
+
+  port: 8080
